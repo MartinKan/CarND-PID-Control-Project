@@ -14,7 +14,7 @@ This repository contains the following source files that I have forked from the 
 
 The PID class implements the PID controller algorithm, which is summarized as follows:
 
-![alt text](https://github.com/MartinKan/CarND-PID-Control-Project/blob/master/PID_formula.jpg)
+![alt text](https://github.com/MartinKan/CarND-PID-Control-Project/blob/master/PID_formula.JPG)
 
 The PID class is initialized with the coefficients for each of the P, I and D components.  At each time interval, the error values for P, I and D are first updated by referencing the cross track error (CTE) value, and the total error value is calculated by using the formula above.  
 
